@@ -48,7 +48,7 @@ export class SalesRepository {
         subtotal: number;
       }>;
     }
-  ): Promise<Sale> {
+  ): Promise<Prisma.SaleGetPayload<{ include: { items: true } }>> {
     return tx.sale.create({
       data: {
         invoiceNumber: data.invoiceNumber,
