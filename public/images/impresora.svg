@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Isometric Thermal POS Printer Icon -->
+  <g transform="translate(0, 0)">
+    <!-- Top Rear Paper (Incoming) -->
+    <path d="M 120 180 L 230 70 L 370 170 L 260 280 Z" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="4"/>
+    <path d="M 130 170 L 225 75 L 345 160" fill="none" stroke="#E5E7EB" stroke-width="3"/>
+    
+    <!-- Top Paper Slot Cover -->
+    <path d="M 90 200 L 220 85 L 260 110 L 130 225 Z" fill="#4B5563"/>
+    <path d="M 220 85 L 390 180 L 350 205 L 180 110 Z" fill="#374151"/>
+
+    <!-- Main Printer Top Surface -->
+    <path d="M 120 280 L 280 160 L 440 280 L 280 400 Z" fill="#6B7280"/>
+    <!-- Dark Inner Paper Tray Cavity -->
+    <path d="M 150 260 L 260 180 L 390 260 L 280 340 Z" fill="#1F2937"/>
+
+    <!-- Front Left Face -->
+    <path d="M 120 280 L 280 400 L 280 470 L 120 350 Z" fill="#D1D5DB"/>
+    <!-- Front Right Face -->
+    <path d="M 280 400 L 440 280 L 440 350 L 280 470 Z" fill="#9CA3AF"/>
+
+    <!-- Front Output Slot (Dark Cavity) -->
+    <path d="M 220 370 L 410 275 L 410 320 L 220 415 Z" fill="#111827"/>
+
+    <!-- Front Exit Paper -->
+    <path d="M 230 380 L 390 300 L 450 360 L 290 440 Z" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="3"/>
+    <path d="M 240 385 L 380 305 L 430 355 L 290 435 Z" fill="#F9FAFB"/>
+
+    <!-- Control Panel LEDs / Buttons -->
+    <!-- Yellow Status Light -->
+    <ellipse cx="195" cy="330" rx="10" ry="6" fill="#F59E0B"/>
+    <ellipse cx="195" cy="329" rx="7" ry="4" fill="#FBBF24"/>
+
+    <!-- Green Power Light -->
+    <ellipse cx="220" cy="350" rx="10" ry="6" fill="#10B981"/>
+    <ellipse cx="220" cy="349" rx="7" ry="4" fill="#34D399"/>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+{
+  "name": "Nubly App",
+  "description": "Sistema POS e inventario local de alta velocidad para bodegón con transacciones atómicas Prisma, búsqueda ultra rápida por código de barras y cron job de reabastecimiento cada 60s.",
+  "requestFramePermissions": [
+    "bluetooth"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

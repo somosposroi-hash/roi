@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <!-- Circular dark background matching the user's debito.png -->
+  <circle cx="60" cy="60" r="58" fill="#0c0d0e" stroke="#262626" stroke-width="2"/>
+  
+  <!-- Mastercard Interlocking Circles -->
+  <g transform="translate(60, 48) scale(0.95)">
+    <!-- Red circle (left) -->
+    <circle cx="-16" cy="0" r="22" fill="#EB001B"/>
+    <!-- Yellow/Orange circle (right) -->
+    <circle cx="16" cy="0" r="22" fill="#F79E1B"/>
+    <!-- Intersection (clip) -->
+    <g>
+      <clipPath id="left-circle">
+        <circle cx="-16" cy="0" r="22"/>
+      </clipPath>
+      <circle cx="16" cy="0" r="22" fill="#FF5F00" clip-path="url(#left-circle)"/>
+    </g>
+  </g>
+
+  <!-- Mastercard Debit text in clean modern typography -->
+  <text x="60" y="86" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" letter-spacing="-0.2">mastercard</text>
+  <text x="60" y="99" text-anchor="middle" fill="#D4D4D8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="400" letter-spacing="0.3">debit</text>
+</svg>
